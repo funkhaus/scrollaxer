@@ -33,8 +33,8 @@ Init plugin like this:
 ```javascript
 jQuery('#slideshow').scrollax({
     selector: '> .slide',
-    speed: 2, // Speed at which the page scrolls (i.e. 0.5 is very fast, 8 is very slow)
-    fadeDelay: 0.3, // each slide will stay full opacity for the first 30% of scrolling
+    speed: 2,
+    fadeDelay:
     step: function($slides, percentage, $curr, $next){
         console.log({
             slides: $slides, 
