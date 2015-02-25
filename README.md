@@ -32,9 +32,9 @@ Style like this:
 Init plugin like this:
 ```javascript
 jQuery('#slideshow').scrollax({
-    selector: '> .slide',
+    selector: '.slide',
     speed: 2,
-    fadeDelay:
+    fadeDelay: 0.3,
     step: function($slides, percentage, $curr, $next){
         console.log({
             slides: $slides, 
@@ -42,6 +42,7 @@ jQuery('#slideshow').scrollax({
             current: $curr, 
             next: $next
         });
+    }
 });
 ```
 ###Settings:
